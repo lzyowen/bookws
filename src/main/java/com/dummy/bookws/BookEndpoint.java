@@ -15,6 +15,8 @@ import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
 @Endpoint
 public class BookEndpoint {
+
+    // this is a endpoint
     private static final String NAMESPACE_URI = "https://www.bookws.com/xml/book";
 
     private BookRepository bookRepository;
